@@ -1,10 +1,10 @@
 {
   "name": "nextjs-boilerplate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env NODE_ENV=production next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "next": "10.0.1",
+    "next-pwa": "^3.1.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "styled-components": "^5.2.1"
@@ -44,6 +45,7 @@
     "@typescript-eslint/parser": "^4.8.1",
     "babel-loader": "^8.2.1",
     "babel-plugin-styled-components": "^1.12.0",
+    "cross-env": "^7.0.2",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
