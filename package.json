@@ -31,7 +31,7 @@
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
+    "@babel/core": "^7.17.7",
     "@babel/preset-typescript": "^7.15.0",
     "@next/eslint-plugin-next": "^11.1.2",
     "@storybook/addon-essentials": "^6.3.8",
