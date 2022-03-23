@@ -34,7 +34,7 @@
     "@babel/core": "^7.17.8",
     "@babel/preset-typescript": "^7.15.0",
     "@next/eslint-plugin-next": "^11.1.2",
-    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-essentials": "^6.4.19",
     "@storybook/react": "^6.3.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.4",
